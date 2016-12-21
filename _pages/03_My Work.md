@@ -1,7 +1,8 @@
 ---
 layout: page
-permalink: /mywork/
-title: My Work
+permalink: /portfolio/
+title: Portfolio
+published: true
 ---
 ###Portfolio page
 

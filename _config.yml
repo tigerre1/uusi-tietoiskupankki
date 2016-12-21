@@ -8,8 +8,8 @@ url: "http://tigerre1.github.io"
 twitter_username: RTigerstedt
 github_username:  tigerre1
 # Build Settings
-sass:
-  sass_dir: _sass
+
 include: ['_pages']
 kramdown:
   input: GFM
+gem: [jekyll-admin]
