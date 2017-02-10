@@ -106,6 +106,13 @@ footer {
   text-align: center;
   padding: 40px; }
 
+/*Rene's code*/
+#blog-wrapper{
+  width:100%;
+  height: auto;
+  background-color: lightblue;
+}
+
 /**
  * Syntax highlighting styles
  */
