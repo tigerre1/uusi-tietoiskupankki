@@ -3,7 +3,7 @@ title: Tania's tutorial
 email: rene.tigerstedt@gmail.com
 description: >
   My first Jekyll Theme
-baseurl: "/tanias-theme"
+baseurl: ''
 url: "http://tigerre1.github.io"
 twitter_username: RTigerstedt
 github_username:  tigerre1
