@@ -125,6 +125,20 @@ footer {
 .archive-group:last-of-type{
   margin-right:0;
 }
+/*Code for the tag-cloud*/
+.tag-cloud {
+  display: flex;
+  list-style-type: none;
+  justify-content:space-around;
+  
+}
+
+.tag-cloud>li a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: pink;
+  
+}
 
 /**
  * Syntax highlighting styles
