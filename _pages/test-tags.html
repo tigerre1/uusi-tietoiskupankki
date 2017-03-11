@@ -1,32 +1,13 @@
 ---
 layout: page
 permalink: /test-tags/
-title: Tags Testing
+title: 'Aihe: Yksi'
 author: "René"
 ---
 
 
-<div style= "color:red">
-  
-{{site.pages| first}}</div>
 
 
-
-
-<div id="archives">
-{% for tag in site.tags %}
-  <div class="archive-group">
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <div id="#{{ tag_name | slugize }}"></div>
-    <p></p>
-    
-    <h3 class="tag-head">{{ tag_name }}</h3>
-    <a name="{{ tag_name | slugize }}"></a> 
-  <!--  {% for post in site.tags[tag_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
-    {% endfor %}-->
-  </div>
+{% for post in site.tags.yksi %}
+ <li><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a><span>, ({{post.author}})</span></li>
 {% endfor %}
-</div>
